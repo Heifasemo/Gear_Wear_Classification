@@ -1,5 +1,5 @@
 
-# Plan A: Segmentation (U-Net) + Grading (ResNet + CORAL) + Grad-CAM
+# Model framework: Segmentation (U-Net) + Grading (ResNet + CORAL) + Grad-CAM
 
 This package implements the recommended **Plan A**:
 - **U-Net** for pixel-wise wear segmentation to compute **area_ratio** precisely.
