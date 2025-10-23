@@ -1,7 +1,7 @@
 
 # Model framework: Segmentation (U-Net) + Grading (ResNet + CORAL) + Grad-CAM
 
-This package implements the recommended:
+Detial:
 - **U-Net** for pixel-wise wear segmentation to compute **area_ratio** precisely.
 - **ResNet18(SE)** grading model that takes **RGB + aux (mask)** and predicts:
   - area_ratio (auxiliary regression),
