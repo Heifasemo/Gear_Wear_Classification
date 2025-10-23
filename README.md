@@ -83,8 +83,3 @@ The script saves:
 - `*_mask.png` (predicted wear masks)
 - `*_heat.png` (Grad-CAM heatmaps of the grading model)
 - `preds.csv` (relpath, area_ratio, depth_mm, grade, score, theta, weights, paths)
-
-## Notes
-- If you only have `depth_bin`, pass `--use-depth-bins` to `run_train_grade.py`. The code currently supervises depth_mm; modify where needed.
-- For better grading stability in production, consider hysteresis thresholds and moving-window voting.
-- You can extend the aux channel to use **heatmaps** or **morphological ops** on masks (e.g., dilation) to help focus on wear borders.
